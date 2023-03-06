@@ -147,7 +147,7 @@ function Record() {
       })
       setArr(data)
       setFilteredResulted(data)
-   count++
+      count++;
     
   };
 
@@ -251,19 +251,7 @@ function Record() {
             </div>
             <button id ="close" onClick={close}>×</button>
             
-            {/* <div className="form-group">
-              <label>Enter ID: </label>
-              <input
-                type="number"
-                required
-                placeholder="Enter your Id"
-                className="form-control"
-                name="id"
-                min="1"
-                // value={formValues.id}
-                onChange={handleChange}
-              ></input>
-            </div> */}
+            
             <div className="form-group">
               <label>Enter First Name: </label>
               <input
